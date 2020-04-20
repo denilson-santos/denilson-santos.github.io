@@ -1,0 +1,120 @@
+section.header-home {
+    background-color: #3b5998; 
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+}
+
+section.header-home header .brand span {
+    color: #fff;
+    font: 800 40px Muli, sans-serif;
+}
+
+section.header-home header .login form {
+    display: flex;
+}
+
+section.header-home header form .form-field {
+    margin: 7px;
+}
+
+section.header-home header form .form-field input {
+    width: 142px;
+    padding: 3px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    color: #495057;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25);
+    font-size: 12px;
+}
+
+section.header-home header form .form-field label {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+section.header-home header form .form-field span {
+    display: block;
+    margin-top: 5px;
+}
+
+section.header-home header form .form-field span a {
+    color: #9cb4d8;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+section.header-home header form .form-field span:hover {
+    text-decoration: underline;
+}
+
+section.header-home header form .form-action {
+    margin: 25px 7px;
+}
+
+section.content-home {
+    background: #e9ebee;
+    background-image: linear-gradient(white, #D3D8E8);
+}
+
+section.content-home .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.content-home .container .description {
+    width: 450px;
+    line-height: 29px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0e385f;
+}
+
+/* section.content-home .content {
+    width: 100%;
+    margin-right: 45px;
+}
+
+section.content-home .register {
+    width: 100%;
+} */
+
+section.content-home .register h2.title {
+    color: #333;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+section.content-home .register h4.sub-title {
+    color: #1d2129;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+section.content-home .register form .form-field input {
+    width: 100%;
+    color: #495057;
+    border: 1px solid #ced4da;
+    font-size: 18px;
+    padding: 9px 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+section.content-home .register form .form-group {
+    display: flex;
+}
+
+section.content-home .register form .form-group input {
+    width: 190px;
+}
+
+section.content-home .register form .form-group input + input {
+    margin-left: 8px;
+}
